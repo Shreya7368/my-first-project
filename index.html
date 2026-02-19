@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>BrainSpark - Daily Puzzle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>BrainSpark - Daily Puzzle</h1>
+
+        <!-- Login Section -->
+        <div id="authSection">
+            <input type="text" id="username" placeholder="Enter Username">
+            <button onclick="login()">Login</button>
+        </div>
+
+        <!-- Game Section -->
+        <div id="gameSection" class="hidden">
+            <h2 id="welcome"></h2>
+            <p id="question"></p>
+
+            <input type="text" id="answer" placeholder="Enter your answer">
+
+            <div>
+                <button onclick="submitAnswer()">Submit</button>
+                <button onclick="useHint()">Hint (-10)</button>
+                <button onclick="logout()">Logout</button>
+            </div>
+
+            <p>Time: <span id="timer">0</span> sec</p>
+            <p>Score: <span id="score">100</span></p>
+
+            <!-- Leaderboard (Hidden Initially) -->
+            <div id="leaderboardSection" class="hidden">
+                <h3>Leaderboard</h3>
+                <ul id="leaderboard"></ul>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
