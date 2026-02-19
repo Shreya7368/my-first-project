@@ -1,4 +1,4 @@
-# BrainSpark Project
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/315bfd65-2652-47b3-92a8-6616ee854afb" /># BrainSpark Project
 
 ## Demo Video
 Watch here:
